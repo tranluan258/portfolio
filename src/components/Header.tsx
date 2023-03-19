@@ -16,10 +16,7 @@ const Header = () => {
       <nav className='hidden md:block'>
         <ul className='flex'>
           <li>
-            <a href='/#about'>About</a>
-          </li>
-          <li>
-            <a href='/#contact'>Contact</a>
+            <a href='/portfolio/#contact'>Contact</a>
           </li>
           
         </ul>
@@ -30,12 +27,9 @@ const Header = () => {
         className={!toggle ? 'mobile-nav left-[-100%]' : 'mobile-nav left-0'}
       >
         <ul className='flex flex-col'>
+  
           <li>
-            <a href='/#about'>About</a>
-          </li>
-          
-          <li>
-            <a href='/#contact'>Contact</a>
+            <a href='/portfolio/#contact'>Contact</a>
           </li>
        
         </ul>
