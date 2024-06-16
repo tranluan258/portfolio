@@ -1,45 +1,34 @@
-import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import ModeToggle from "./ToggleTheme";
 
 const Header = () => {
-  const [toggle, setToggle] = useState<boolean>(false);
-
-  const handleToggle = () => setToggle(!toggle);
-
   return (
-    <header className="flex justify-between px-10 py-2 fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold ">
-        Home
-      </a>
-
+    <header className="flex flex-row px-96 md:py-10 fixed w-full z-10  max-sm:px-10 items-center">
+      <ul className="basis-1/4 md:block">
+        <li>
+          <a href="/" className="text-2xl font-bold">
+            Luan Tran
+          </a>
+        </li>
+      </ul>
       {/* Desktop Nav */}
-      <nav className="hidden md:block">
-        <ul className="flex items-center">
-          <li>
-            <ModeToggle />
+      <nav className="md:block basis-1/2">
+        <ul className="flex items-center justify-center">
+          <li className="text-2xl font-bold">
+            <a href="/">Home</a>
           </li>
-          <li>
+          <li className="text-2xl font-bold">
+            <a>Projects</a>
+          </li>
+          <li className="text-2xl font-bold">
             <a href="/portfolio/#contact">Contact</a>
           </li>
         </ul>
       </nav>
-
-      {/* Mobile Nav */}
-      <nav
-        className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
-      >
-        <ul className="flex flex-col">
-          <li>
-            <a href="/portfolio/#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      {/* Toggle button */}
-      <button onClick={handleToggle} className="block md:hidden">
-        {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
-      </button>
+      <ul className="ml-auto basis-1/4 flex flex-row items-center justify-end">
+        <li>
+          <ModeToggle />
+        </li>
+      </ul>
     </header>
   );
 };
