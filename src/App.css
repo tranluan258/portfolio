@@ -1,33 +1,21 @@
 /* color */
-.bg-primary {
-    background: black;
-}
-
-.bg-secondery {
-    background: black;
-}
-
-.bg-accent {
-    background: hsl(240, 35%, 87%);
-}
-
 .text-accent {
-    color: #d5d5d8;
+  color: #d5d5d8;
 }
 .mobile-nav {
-    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
-} 
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
 
 nav li a {
-    @apply px-4 py-5 text-lg;
+  @apply px-4 py-5 text-lg;
 }
 
 nav li a:hover {
-    color: #7477FF;
+  color: #7477ff;
 }
 
 /* hero */
 h1 {
-    font-family: 'Pacifico', cursive;
-    line-height: 1.5 !important;
+  font-family: "Pacifico", cursive;
+  line-height: 1.5 !important;
 }
