@@ -5,7 +5,7 @@ const Header = () => {
     <header className="flex flex-row px-96 md:py-10 fixed w-full z-10  max-sm:px-10 items-center">
       <ul className="basis-1/4 md:block">
         <li>
-          <a href="/" className="text-2xl font-bold">
+          <a href="/portfolio" className="text-2xl font-bold">
             Luan Tran
           </a>
         </li>
@@ -14,7 +14,7 @@ const Header = () => {
       <nav className="md:block basis-1/2">
         <ul className="flex items-center justify-center">
           <li className="text-2xl font-bold">
-            <a href="/">Home</a>
+            <a href="/portfolio">Home</a>
           </li>
           <li className="text-2xl font-bold">
             <a>Projects</a>
