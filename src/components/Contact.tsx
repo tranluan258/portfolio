@@ -6,8 +6,8 @@ const Contact = () => {
           Contact Me
         </h2>
         <p>
-          I am currently open for a full time Software Engineer at TMA
-          Solutions. If you want to discuss about that feel free to email me or
+          I am open to working for the position of Software Engineer. If you
+          would like to discuss this further, please feel free to email me or
           call me.
         </p>
 
