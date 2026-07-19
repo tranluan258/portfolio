@@ -14,13 +14,13 @@ const Hero = () => {
         <div className="pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl">
             Hi, I'm <span>L</span>uan <br />
-            Software Engineer
+            Backend Engineer
           </h1>
 
           <TextGenerateEffect
             words="
-            I am a software engineer with 2 year of
-            experience in Javascript, TypeScript, Nodejs and Golang.
+            I am a backend engineer building payment systems and fintech
+            infrastructure with Java, Vert.x, gRPC and Redis.
               "
             className="py-5"
           />

@@ -17,7 +17,10 @@ const Header = () => {
             <a href="/portfolio">Home</a>
           </li>
           <li className="text-2xl font-bold">
-            <a>Projects</a>
+            <a href="/portfolio/#about">About</a>
+          </li>
+          <li className="text-2xl font-bold">
+            <a href="/portfolio/#skills">Skills</a>
           </li>
           <li className="text-2xl font-bold">
             <a href="/portfolio/#contact">Contact</a>
